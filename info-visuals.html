@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo-Bits | Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Geo-Bits.</a>
+            
+            <div class="mobile-controls">
+                <button class="theme-toggle" aria-label="Toggle Theme">🌙</button>
+                <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html#latest" class="nav-link">Latest News</a>
+                <a href="index.html#visuals" class="nav-link">Visuals</a>
+                <a href="info-visuals.html" class="nav-link">Gallery</a>
+                <button class="theme-toggle desktop-only" aria-label="Toggle Theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <main class="container section" style="margin-top: var(--header-height);">
+        <div class="gallery-layout">
+            <div style="position:relative;">
+                <div id="spotlight-viewport" class="spotlight-viewport"></div>
+                <div style="display:flex; justify-content:space-between; margin-top:12px;">
+                    <button id="prev-btn" class="btn btn-outline">← Prev</button>
+                    <button id="next-btn" class="btn btn-outline">Next →</button>
+                </div>
+                <div id="filmstrip" class="filmstrip"></div>
+            </div>
+
+            <div id="spotlight-meta"></div>
+        </div>
+    </main>
+    <script type="module" src="js/gallery.js"></script>
+</body>
+</html>

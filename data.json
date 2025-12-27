@@ -1,0 +1,87 @@
+{
+    "news_articles": [
+        {
+            "id": 101,
+            "source": "The Economist",
+            "title": "Semiconductor supply chains shift away from East Asia",
+            "preview": "New fabrication plants in Arizona and Germany mark a turning point in global tech sovereignty.",
+            "date": "Oct 12, 2025",
+            "externalLink": "https://www.economist.com",
+            "category": "Tech"
+        },
+        {
+            "id": 102,
+            "source": "Reuters",
+            "title": "OPEC+ announces surprise production cuts amid demand surge",
+            "preview": "Oil prices jumped 5% immediately following the announcement from Vienna.",
+            "date": "Oct 10, 2025",
+            "externalLink": "https://www.reuters.com",
+            "category": "Economics"
+        }
+    ],
+    "visualizations": [
+        {
+            "id": "viz_01",
+            "title": "Domestic Capital: The New Market Anchor (2024-2025)",
+            "preview": "Correlating DII support levels against FII sell-off periods to highlight domestic resilience.",
+            "category": "Economy",
+            "imageUrl": "Assets/images/FII vs DII.jpg",
+            "detailContent": {
+                "description": "The 2024 to 2025 equity landscape marks a fundamental shift where domestic capital has replaced foreign investment as the primary anchor of the Indian market. While foreign institutional investors withdrew significant capital throughout the year, domestic institutional investors consistently matched these sell offs with massive inflows, such as the eighty seven thousand crore buy in January 2025 that offset a near identical exit. This resilience is fueled by the steady rise of retail participation through mutual funds, creating a robust internal cushion that protects the economy from global volatility. By the end of 2025, it is clear that India has reached a level of financial maturity where its growth trajectory is no longer dictated by international sentiment but by the collective confidence of its own people.",
+                "methodology": "Aggregated data from PitchBook and Crunchbase Q3 reports.",
+                "keyInsights": [
+                    "The Power of SIPs",
+                    "Structural Independence from FIIs focuses on industrial AI",
+                    "DII holdings in NSE-listed companies (18.26%) have surpassed FII ownership (16.71%)"
+                ]
+            }
+        },
+        {
+            "id": "viz_02",
+            "title": "The Solar Capacity Surge (2020-2025)",
+            "preview": "While Coal is still King, the data proves Solar is the only source growing at scale.",
+            "category": "Energy",
+            "imageUrl": "Assets/images/Solar growth.png",
+            "detailContent": {
+                "description": "The transition in India’s power sector is no longer a distant goal; it is a visible, rapid transformation. While coal continues to provide the steady baseline of 217.50 GW required to keep the national grid stable, its era of expansion has clearly stalled, growing a marginal 6% since 2020. In contrast, solar energy has evolved from a supplemental power source into a primary driver of new capacity, ballooning by nearly 268% in just five years. This shift represents a strategic decoupling of economic growth from carbon-intensive fuels, signaling that the 'Green Energy' narrative has moved from policy documents to physical infrastructure on a massive scale..",
+                "methodology": "Custom shipping data provided by MarineTraffic API.",
+                "keyInsights": [
+                    "Explosive Growth in Solar",
+                    "Shift in Energy Mix"
+                ]
+            }
+        },
+        {
+            "id": "viz_03",
+            "title": "Industrial Robot Density (2023)",
+            "preview": "Data highlights a significant divergence in capital expenditure strategies.",
+            "category": "TECH",
+            "imageUrl": "Assets/images/Robot Density (2023).jpg",
+            "detailContent": {
+                "description": "The 2023 data on industrial robot density reveals a profound disparity in how global economies are approaching the future of manufacturing. South Korea stands in a league of its own with ~1,012 robots per 10,000 workers, nearly ten times the global average, fueled by its world-leading electronics and automotive sectors. Perhaps most striking is China's aggressive ascent to ~470 units, now surpassing traditional automation giants like Germany and Japan as it pivots toward 'Smart Manufacturing' to offset demographic shifts. Meanwhile, India’s density of ~9 highlights a nascent stage where low labor costs still favor human-centric production over high-capital automation. This represents a massive 'automation frontier' for India, signaling that as its high-tech manufacturing scales, the potential for a rapid, non-linear surge in robotics adoption is immense.",
+                "methodology": "Source -  International Federation of Robotics (IFR)",
+                "keyInsights": [
+                    "South Korea is the global benchmark",
+                    "China's aggressive ascent",
+                    "India lacks in automation"
+                ]
+            }
+        },
+        {
+            "id": "viz_04",
+            "title": "India top export destinations",
+            "preview": "Visualizing India's largest export partners and the primary product driving demand in each region",
+            "category": "TRADE",
+            "imageUrl": "Assets/images/India top export destinations.png",
+            "detailContent": {
+                "description": "India’s export profile for 2024-25 signals a decisive shift toward high-value manufacturing and strategic energy processing. The most prominent feature is the massive $86.51 billion trade volume with the USA, which now stands as a market nearly 2.4 times larger than India’s next biggest partner, the UAE. This 'Western Pivot' is primarily fueled by the explosion in electronics and smartphone exports a direct outcome of the 'Make in India. initiative making India a critical tech assembly hub for the USA, UK, and Italy.",
+                "methodology": "Custom shipping data provided by MarineTraffic API.",
+                "keyInsights": [
+                    "Petroleum Products Drive Strategic Markets",
+                    "The Electronics Boom",
+                    "USA is India’s largest export"
+                ]
+            }
+        }
+    ]
+}
