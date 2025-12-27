@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo-Bits | Discover the World Through Data</title>
+    
+    <!-- Google Analytics (Replace G-XXXXXXXXXX) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <style>
+        .filter-bar-sticky {
+            position: sticky;
+            top: var(--header-height);
+            background: var(--bg-body);
+            z-index: 90;
+            padding: 16px 0;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 32px;
+        }
+        .filter-btn {
+            background: none; border: none; padding: 8px 16px;
+            cursor: pointer; font-weight: 500; color: var(--text-muted);
+            border-bottom: 2px solid transparent;
+        }
+        .filter-btn.active { color: var(--color-brand-primary); border-color: var(--color-brand-primary); }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" style="font-size:1.5rem; font-weight:800; letter-spacing:-1px;">Geo-Bits.</a>
+            <div class="nav-links">
+                <a href="#latest" class="nav-link">Latest News</a>
+                <a href="#visuals" class="nav-link">Visuals</a>
+                <a href="info-visuals.html" class="nav-link">Gallery</a>
+                <button class="theme-toggle" aria-label="Toggle Dark Mode">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="text-gradient">Discover the World<br>Through Data</h1>
+            <p>Curated geopolitical insights and economic snapshots for the modern analyst.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- News Section -->
+        <section id="latest" class="section">
+            <div style="display:flex; justify-content:space-between; align-items:end; margin-bottom:32px;">
+                <h2>Global Briefing</h2>
+                <span style="color:var(--color-brand-accent);">● Live Updates</span>
+            </div>
+            <div id="news-grid" class="grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <!-- JS Injects Cards Here -->
+            </div>
+        </section>
+
+        <!-- Visuals Section -->
+        <section id="visuals" class="section">
+            <div class="filter-bar-sticky">
+                <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                    <h2 style="margin:0;">Info-Visuals</h2>
+                    <div style="display:flex; gap:16px; overflow-x:auto;">
+                        <button class="filter-btn active" data-filter="All">All</button>
+                        <button class="filter-btn" data-filter="Geopolitics">Geopolitics</button>
+                        <button class="filter-btn" data-filter="Economics">Economics</button>
+                        <button class="filter-btn" data-filter="Tech">Tech</button>
+                        <input type="text" id="search-input" placeholder="Search..." style="padding:8px; border-radius:4px; border:1px solid var(--border-color);">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="viz-grid" class="grid" style="grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));">
+                <!-- JS Injects Cards Here -->
+            </div>
+        </section>
+    </main>
+
+    <script type="module" src="js/home.js"></script>
+</body>
+</html>

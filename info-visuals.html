@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo-Bits | Visual Archive</title>
+    
+    <!-- Google Analytics (Replace G-XXXXXXXXXX) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <style>
+        .gallery-layout {
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 40px;
+            min-height: 70vh;
+            align-items: center;
+        }
+        .spotlight-viewport {
+            width: 100%; height: 500px;
+            background: var(--bg-surface-2);
+            border-radius: var(--radius-lg);
+            display: flex; align-items: center; justify-content: center;
+            position: relative;
+            box-shadow: var(--shadow-md);
+            transition: opacity 0.3s ease;
+        }
+        .spotlight-img { max-height: 90%; max-width: 90%; object-fit: contain; filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2)); }
+        
+        .gallery-nav-btn {
+            position: absolute; top: 50%; transform: translateY(-50%);
+            background: rgba(0,0,0,0.5); color: white;
+            border: none; width: 48px; height: 48px; border-radius: 50%;
+            cursor: pointer; font-size: 24px;
+        }
+        .prev { left: 16px; } .next { right: 16px; }
+
+        .meta-actions { display: flex; flex-direction: column; gap: 16px; margin-top: 24px; }
+        
+        @media(max-width: 900px) { .gallery-layout { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html">← Back to Home</a>
+            <div class="nav-links">
+                <span style="opacity:0.5">Visual Archive</span>
+                <button class="theme-toggle">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container section" style="margin-top: var(--header-height);">
+        
+        <div class="gallery-layout">
+            <!-- Left: Visual -->
+            <div style="position:relative;">
+                <div id="spotlight-viewport" class="spotlight-viewport">
+                    <!-- JS Injects Image -->
+                </div>
+                <button id="prev-btn" class="gallery-nav-btn prev">‹</button>
+                <button id="next-btn" class="gallery-nav-btn next">›</button>
+                
+                <!-- Filmstrip below visual -->
+                <div id="filmstrip" class="filmstrip">
+                    <!-- JS Injects Thumbs -->
+                </div>
+            </div>
+
+            <!-- Right: Meta Data -->
+            <div id="spotlight-meta">
+                <!-- JS Injects Title/Desc/Buttons -->
+            </div>
+        </div>
+
+    </main>
+
+    <script type="module" src="js/gallery.js"></script>
+</body>
+</html>
