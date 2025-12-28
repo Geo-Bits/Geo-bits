@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Geo-Bits</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Geo-Bits.</a>
+            <button class="mobile-toggle" aria-label="Menu">☰</button>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="info-visuals.html" class="nav-link">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+                <button class="theme-btn" aria-label="Toggle Theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="container section" style="margin-top:60px;">
+        <div class="gallery-layout">
+            <div style="position:relative;">
+                <div id="viewport" class="spotlight-viewport"></div>
+                <div style="display:flex; justify-content:space-between; margin-top:12px;">
+                    <button id="prev" class="btn btn-outline">← Prev</button>
+                    <button id="next" class="btn btn-outline">Next →</button>
+                </div>
+            </div>
+            <div id="meta"></div>
+        </div>
+    </main>
+    <script type="module" src="js/gallery.js"></script>
+</body>
+</html>
