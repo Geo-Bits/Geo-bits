@@ -560,4 +560,32 @@ h1,
 h2,
 h3 {
     font-family: 'Space Grotesk', sans-serif;
+
+}
+
+.container {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+}
+
+.article-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .article-container {
+        max-width: 100%;
+    }
+
+    .reading-box {
+        padding: 20px 16px;
+    }
 }
