@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap"
+        rel="stylesheet">
+
+    <title>Data Sources | Geo-Bits</title>
+    <meta name="description" content="Primary data sources used by Geo-Bits.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Geo-Bits.</a>
+            <button class="mobile-toggle">☰</button>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="info-visuals.html" class="nav-link">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+                <button class="theme-btn">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <main class="container section" style="margin-top:60px; display:flex; justify-content:center;">
+        <div class="card" style="max-width:720px; width:100%; padding:32px;">
+            <h1>Data Sources</h1>
+
+            <div class="container" style="margin-top:24px;">
+                <p style="font-size:0.85rem; color:var(--text-muted); margin-bottom:12px;">
+                    <a href="index.html" class="meta-link">Home</a> › Data Sources
+                </p>
+            </div>
+
+
+            <ul style="margin-top:24px; padding-left:20px; line-height:1.8;">
+                <li>World Bank</li>
+                <li>International Monetary Fund (IMF)</li>
+                <li>UN Comtrade</li>
+                <li>International Federation of Robotics (IFR)</li>
+                <li>National statistical offices</li>
+                <li>Energy agencies and regulatory bodies</li>
+            </ul>
+        </div>
+    </main>
+
+
+    <script type="module">
+        import { Theme } from './js/utils.js';
+        Theme.init();
+    </script>
+
+</body>
+
+</html>

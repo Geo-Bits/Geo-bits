@@ -1,0 +1,191 @@
+{
+    "news_articles": [
+        {
+            "id": 101,
+            "source": "The Economist",
+            "title": "Semiconductor supply chains shift away from East Asia",
+            "preview": "New fabrication plants in Arizona and Germany mark a turning point.",
+            "date": "Oct 12, 2025",
+            "externalLink": "https://www.economist.com",
+            "category": "Tech"
+        },
+        {
+            "id": 102,
+            "source": "Reuters",
+            "title": "OPEC+ announces surprise production cuts",
+            "preview": "Oil prices jumped 5% immediately following the announcement.",
+            "date": "Oct 10, 2025",
+            "externalLink": "https://www.reuters.com",
+            "category": "Economics"
+        }
+    ],
+    "visualizations": [
+        {
+            "id": "viz_01",
+            "published": "01-01-2026",
+            "title": "Domestic Capital: The New Market Anchor (2024-2025)",
+            "preview": "Correlating DII support levels against FII sell-off periods to highlight domestic resilience.",
+            "category": "Economy",
+            "imageUrl": "Assets/images/FII vs DII.jpg",
+            "author": "Somesh K",
+            "authorRole": "Analyst",
+            "authorLink": "https://linkedin.com/in/someshkota",
+            "detailContent": {
+                "description": "The chart compares foreign (FII) and domestic (DII) equity flows to show how Indian markets are increasingly being stabilised by domestic capital. \n\n During months of heavy FII selling such as Jan-25 (-₹87,375 Cr) and Feb-25 (-₹58,988 Cr), DIIs simultaneously bought strongly with ₹86,592 Cr and ₹64,853 Cr respectively. \n\n This inverse relationship indicates that domestic institutions are now acting as counter-cyclical stabilisers, absorbing global risk-off flows and reducing market volatility caused by external shocks. It reflects rising household financialisation through mutual funds, pensions, and insurance, which is structurally changing India’s market from being FII-driven to domestically anchored. \n\n India’s equity market resilience is increasingly internalised, lowering vulnerability to global capital cycles and improving long-term market stability.",
+                "sources": [
+                    {
+                        "name": "Ministry of Commerce and Industry",
+                        "url": "https://tradestat.commerce.gov.in/"
+                    }
+                ],
+                "keyInsights": [
+                    "Domestic anchor",
+                    "FII volatility",
+                    "DII holdings in NSE-listed companies (18.26%) have surpassed FII ownership (16.71%)"
+                ]
+            }
+        },
+        {
+            "id": "viz_02",
+            "published": "01-01-2026",
+            "title": "The Solar Capacity Surge (2020-2025)",
+            "preview": "While Coal is still King, the data proves Solar is the only source growing at scale.",
+            "category": "Energy",
+            "imageUrl": "Assets/images/Solar growth.png",
+            "author": "Data Team",
+            "authorRole": "Research Desk",
+            "detailContent": {
+                "description": "Solar capacity rose from 34.6 GW in Mar-20 to 127.3 GW by Sep-25, while coal increased only marginally from 205.1 GW to 217.5 GW over the same period. \n\n This indicates that India’s incremental electricity demand is being met structurally through renewables rather than fossil expansion, reflecting both policy intent and economics, as new solar is now faster and cheaper to deploy than new coal plants. Coal remains dominant in absolute terms because of legacy infrastructure and baseload requirements, but it is no longer the marginal growth technology in the system. \n\n India’s energy transition is shifting from coal-led expansion to coal-backed stability, with solar becoming the primary engine of future capacity growth. ",
+                "sources": [
+                    {
+                        "name": "CEA Power Sector at a Glance (Sep 2025), MNRE Physical Progress (Official Dashboard), CEA Installed Capacity Reports Archive",
+                        "url": ""
+                    }
+                ],
+                "keyInsights": [
+                    "Solar-driven growth",
+                    "Coal plateaued",
+                    "Transition underway"
+                ]
+            }
+        },
+        {
+            "id": "viz_03",
+            "published": "01-01-2026",
+            "title": "Industrial Robot Density (2023)",
+            "preview": "Data highlights a significant divergence in capital expenditure strategies.",
+            "category": "TECH",
+            "imageUrl": "Assets/images/Robot Density (2023).jpg",
+            "author": "Somesh K",
+            "authorRole": "Analyst",
+            "detailContent": {
+                "description": "Industrial robot adoption in 2023 varies sharply across major manufacturing economies, reflecting different capital-labour strategies. \n\n South Korea leads with about 1,012 robots per 10,000 workers, while India remains at around 9, compared to China at ~470 and the US at ~295. \n\n High robot density in South Korea, Singapore, and Germany indicates a structural preference for capital-intensive manufacturing to offset ageing workforces, high wages, and quality demands, especially in electronics and automotive sectors. India’s extremely low density reflects labour abundance, cost sensitivity, and lower penetration of advanced manufacturing, but also signals a potential productivity gap as global supply chains become more automation-driven. \n\n The divergence suggests that future manufacturing competitiveness will increasingly depend on automation intensity, potentially widening productivity and quality gaps between highly automated and labour-led economies.",
+                "sources": [
+                    {
+                        "name": "International Federation of Robotics",
+                        "url": "https://ifr.org"
+                    }
+                ],
+                "keyInsights": [
+                    "South Korea is the global benchmark",
+                    "China's aggressive ascent",
+                    "India lacks in automation"
+                ]
+            }
+        },
+        {
+            "id": "viz_04",
+            "published": "01-01-2026",
+            "title": "India top export destinations",
+            "preview": "Visualizing India's largest export partners and the primary product driving demand in each region",
+            "category": "TRADE",
+            "imageUrl": "Assets/images/India top export destinations.png",
+            "author": "Somesh K",
+            "authorRole": "Analyst",
+            "detailContent": {
+                "description": "India’s export demand in 2024–25 is concentrated in a few large markets, with different regions driven by distinct product categories. \n\n The US alone accounts for $86.5B of India’s exports, more than double the UAE ($36.6B) and nearly four times the Netherlands ($22.8B). \n\n This concentration makes India’s export performance highly sensitive to US economic cycles, consumer demand, and trade policy, especially in technology, pharmaceuticals, and services where the US is a dominant buyer. While diversification across Europe, Asia, and the Middle East exists, none of these markets individually provide a comparable demand buffer if US imports slow or face protectionist shifts.\n\n India’s export growth is strong but structurally exposed, making geographic diversification a strategic necessity rather than just an opportunity.",
+                "sources": [
+                    {
+                        "name": "Ministry of Commerce and Industry",
+                        "url": "https://tradestat.commerce.gov.in/"
+                    }
+                ],
+                "keyInsights": [
+                    "US concentration risk",
+                    "The Electronics Boom",
+                    "USA is India’s largest export"
+                ]
+            }
+        },
+        {
+            "id": "viz_05",
+            "published": "01-01-2026",
+            "title": "India Defense Export Value",
+            "preview": "Visualizing India's largest export partners and the primary product driving demand in each region",
+            "category": "TRADE",
+            "imageUrl": "Assets/images/India Defense Export Year Wise .jpg",
+            "author": "Somesh K",
+            "authorRole": "Analyst",
+            "detailContent": {
+                "description": "India’s defence exports have risen sharply over the past decade, marking a structural shift in India’s role from importer to emerging exporter of defence equipment. \n\n Defence exports increased from ₹1,522 crore in 2016–17 to a peak of ₹21,083 crore in 2023–24 before easing slightly to ₹15,526 crore in 2024–25.\n\n The sustained rise after FY21 reflects policy reforms such as export facilitation, indigenisation, and private sector participation, which unlocked global demand for Indian defence products across Asia, Africa, and Latin America. The slight dip in 2024–25 appears more like order-timing and delivery-cycle normalisation rather than a reversal, indicating that growth has shifted from episodic to structurally embedded.\n\n India’s defence export sector has entered a higher and more stable growth regime, positioning it as a long-term contributor to industrial and strategic influence.",
+                "sources": [
+                    {
+                        "name": "Ministry of Commerce and Industry",
+                        "url": "https://tradestat.commerce.gov.in/"
+                    }
+                ],
+                "keyInsights": [
+                    "Export credibility built",
+                    "Long-term momentum"
+                ]
+            }
+        },
+        {
+            "id": "viz_06",
+            "published": "01-01-2026",
+            "title": "The Path to 2032: Government Energy Roadmap",
+            "preview": "Visualizing India's largest export partners and the primary product driving demand in each region",
+            "category": "TRADE",
+            "imageUrl": "Assets/images/2032 Rise of renewables (1).png",
+            "author": "Prajwal L",
+            "authorRole": "Analyst",
+            "detailContent": {
+                "description": "India’s government energy roadmap shows a planned structural shift in the power mix from fossil fuels toward renewables by 2032. \n\n Solar and wind are projected to rise from 36.3% in 2025 to 55.6% by 2032, while coal and lignite fall from 44.5% to 32.4% over the same period. \n\n This reflects a policy-driven reallocation of capital toward low-carbon generation to manage climate commitments, energy security, and import dependence, while still retaining enough coal capacity to ensure grid stability during the transition. The modest rise in nuclear and the decline in gas, hydro, and biomass suggest the transition is being concentrated into scalable variable renewables rather than diversified evenly across all clean technologies. \n\n India’s transition strategy is renewable-heavy and coal-light rather than coal-free, prioritising rapid decarbonisation without risking system reliability.",
+                "sources": [
+                    {
+                        "name": "Ministry of Commerce and Industry",
+                        "url": "https://tradestat.commerce.gov.in/"
+                    }
+                ],
+                "keyInsights": [
+                    "Renewables will be more dominant ",
+                    "Coal will be de-weighted",
+                    "Grid balancing critical"
+                ]
+            }
+        },
+        {
+            "id": "viz_07",
+            "published": "01-01-2026",
+            "title": "India Renewables Share & Capacity",
+            "preview": "Visualizing India's largest export partners and the primary product driving demand in each region",
+            "category": "TRADE",
+            "imageUrl": "Assets/images/Inian Renewable Energy 2025.jpg",
+            "author": "Somesh K",
+            "authorRole": "Analyst",
+            "detailContent": {
+                "description": "India’s renewable energy capacity in 2025 is dominated by solar, with total installed renewables now exceeding 200 GW. \n \n Solar accounts for 82 GW of capacity and 40% of the renewable mix, while wind and large hydro each contribute about 22% despite having much lower recent capacity additions. \n \n This reflects a structural shift in India’s energy strategy toward faster-deploying, modular, and cost-declining technologies, as solar can be scaled more quickly than hydro or wind, which face land, clearance, and grid-integration constraints. The relatively flat shares of wind and hydro indicate that while they remain critical for base and balancing power, they are no longer the primary drivers of incremental capacity growth. \n \n India’s clean-energy transition is becoming solar-centric, improving speed and cost efficiency but increasing dependence on storage, grid flexibility, and weather-linked generation stability.",
+                "sources": [
+                    {
+                        "name": "Ministry of Commerce and Industry",
+                        "url": "https://tradestat.commerce.gov.in/"
+                    }
+                ],
+                "keyInsights": [
+                    "Solar has become the core growth engine of renewables",
+                    "Capacity expansion is shifting from infrastructure-heavy to modular technologies"
+                ]
+            }
+        }
+    ]
+}

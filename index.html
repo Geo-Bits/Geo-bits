@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geo-Bits</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>window.dataLayer = window.dataLayer || []; function gtag() { dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-XXXXXXXXXX');</script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="brand">Geo-Bits.</a>
+            <button class="mobile-toggle" aria-label="Menu">☰</button>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="info-visuals.html" class="nav-link">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+                <button class="theme-btn" aria-label="Toggle Theme">🌙</button>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="hero">
+        <div style="max-width:800px;">
+            <h1 class="text-gradient">Discover the World<br>Through Data</h1>
+            <p style="font-size:1.2rem; color:var(--text-muted); margin-top:16px;">Curated geopolitical insights and
+                economic snapshots.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="section">
+            <h2>Global Briefing</h2>
+            <div id="news-grid" class="grid" style="margin-top:24px;"></div>
+        </section>
+
+        <section class="section">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="All">All</button>
+                <button class="filter-btn" data-filter="Geopolitics">Geopolitics</button>
+                <button class="filter-btn" data-filter="Economics">Economy</button>
+                <button class="filter-btn" data-filter="Tech">Tech</button>
+                <button class="filter-btn" data-filter="Energy">Energy</button>
+                <button class="filter-btn" data-filter="TRADE">Trade</button>
+            </div>
+            <input type="text" id="search" placeholder="Search visuals..."
+                style="width:100%; padding:12px; margin-bottom:24px; border-radius:8px; border:1px solid var(--border-color); background:var(--bg-surface); color:var(--text-main);">
+
+            <div id="viz-loading" style="text-align:center; padding:40px; color:var(--text-muted);">
+                Loading visuals…
+            </div>
+
+            <div id="viz-grid" class="grid"></div>
+
+            <!-- NEW: See More Button Container -->
+            <div id="see-more-container" style="text-align: center; margin-top: 32px; display: none;">
+                <button id="see-more-btn" class="btn btn--outline" style="padding: 10px 20px; cursor: pointer;">See
+                    More</button>
+            </div>
+
+        </section>
+    </main>
+
+    <script type="module" src="js/home.js"></script>
+</body>
+
+</html>
